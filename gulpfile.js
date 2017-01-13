@@ -19,7 +19,7 @@ let fuseBox = new fsbx.FuseBox({
         fsbx.BabelPlugin({
             config: {
                 sourceMaps: false,
-                presets: ["latest"],
+                presets: ["latest", "stage-0"],
                 plugins: [
                     ["transform-react-jsx"]
                 ]
